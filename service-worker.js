@@ -1,6 +1,6 @@
 const CACHE_NAME = 'teleprompter-v1';
 const urlsToCache = [
-  './teleprompter.html',
+  './index.html',
   './teleprompter.css',
   './teleprompter.js',
   './icon-192x192.png',
