@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>FiveCodes Teleprompter</title>
+    <link rel="stylesheet" href="teleprompter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="editor-view">
+        <h1 class="gradient-title">FiveCodes Teleprompter</h1>
+        <textarea id="script-input" placeholder="Cole seu roteiro aqui..."></textarea>
+        <button id="start-btn" class="btn">INICIAR TELEPROMPTER</button>
+    </div>
+
+    <div id="prompter-view" class="hidden">
+        <div id="teleprompter-text">
+            </div>
+
+        <div id="controls">
+            <button id="back-to-edit-btn">EDITAR</button>
+            <button id="start-stop-btn">START</button>
+            <button id="speed-down-btn">-</button>
+            <span id="speed-indicator">10</span>
+            <button id="speed-up-btn">+</button>
+            <button id="mirror-btn">ESPELHAR</button>
+        </div>
+    </div>
+
+    <script src="teleprompter.js"></script>
+
+</body>
+</html>
