@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carrega o script do localStorage para o <textarea>
     function loadScript() {
-        const savedScript = localStorage.getItem('teleprompterScript');
+        const savedScript = localStorage.getItem('teleprompterxxxScript');
         if (savedScript) {
             scriptInput.value = savedScript;
         }
